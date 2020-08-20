@@ -1,6 +1,5 @@
 def square_array(array)
-  square_array.each do | repeat |
-    squared = repeat**
-    array.push(squared)
+  array.each do | repeat |
+    array.push(repeat**)
   end
 end
